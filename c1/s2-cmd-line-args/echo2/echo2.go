@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	s, sep := "", "" //short variable declaration
+	s, sep := "", ""        //short variable declaration
+	fmt.Println(os.Args[0]) // Exercise 1.1, print the name of the function.
 	for _, arg := range os.Args[1:] {
 		s += sep + arg
 		sep = " "

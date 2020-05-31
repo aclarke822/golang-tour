@@ -8,6 +8,7 @@ import (
 
 func main() {
 	var s, sep string
+	fmt.Println(os.Args[0]) // Exercise 1.1, print the name of the function.
 	for i := 1; i < len(os.Args); i++ {
 		s += sep + os.Args[i] //Equivalent to s = s + sep + os.Args[i]
 		sep = " "

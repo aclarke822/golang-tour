@@ -8,11 +8,12 @@ import (
 )
 
 func main() {
+	fmt.Println(os.Args[0]) // Exercise 1.1, print the name of the function.
 	fmt.Println(strings.Join(os.Args[1:], " "))
 }
 
 //Notes
 /*
 fmt.Println(os.Args[1:]) will print the same as strings but with surrounding brackets.
-strings.Join is simple and more efficient that previous loops.
+strings.Join is simpler and more efficient that previous loops.
 */
