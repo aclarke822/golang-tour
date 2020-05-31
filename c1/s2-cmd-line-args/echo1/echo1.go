@@ -4,16 +4,17 @@ package main
 import (
 	"fmt"
 	"os"
+	"strconv" //Exercise 1.2, print index and value, one per line
+	"time"    //Exercise 1.3, compare times of execution between echo1/2/3, using 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 )
 
 func main() {
-	var s, sep string
+	start := time.Now()
 	fmt.Println(os.Args[0]) // Exercise 1.1, print the name of the function.
 	for i := 1; i < len(os.Args); i++ {
-		s += sep + os.Args[i] //Equivalent to s = s + sep + os.Args[i]
-		sep = " "
+		fmt.Println(strconv.Itoa(i) + ":" + os.Args[i]) //Exercise 1.2, print index and value, one per line
 	}
-	fmt.Println(s)
+	fmt.Printf("%.4fs elapsed\n", time.Since(start).Seconds())
 }
 
 //Notes
@@ -52,4 +53,9 @@ A traditional infinite loop:
 	for {
 		//zero or more statements
 	}
+
+Exercise 1.3 using 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 as test
+echo1 0.0100s
+echo2 0.0150s
+echo3 <0.0010s
 */
