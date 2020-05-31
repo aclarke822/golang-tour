@@ -33,5 +33,4 @@ The third form (3) is rarely used except when declaring multiple variables.
 The fourth form (4) is explicit about the variable's type, which is redeundant when it is the same as that of the initial value, but necessary in other cases where they are not of the same type.
 In practice, you should generally use one of the first two forms, with explicit initialization to say that the initial value is important and implicit initialization to say that the initial value doesn't matter.
 On each iteration, s gets a new value. The old value is garbage-collected in due course.
-
 */
