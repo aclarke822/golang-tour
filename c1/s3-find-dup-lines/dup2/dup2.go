@@ -1,5 +1,5 @@
-//Dup1 prints the text of each line that appears more than once
-//once in the standard input, preceded by its count.package lines
+//Dup2 prints the count and text of each line that appears more than once
+//It reads from stdin or from a list of named files
 package main
 
 import (
