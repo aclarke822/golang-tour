@@ -26,4 +26,8 @@ func main() {
 /*
 As with for, parentheses are never used around the condition in an if statement, but braces are required for the body.
 There can be an optional else that is executed if the condition is false.
+A map holds a set of key/value pairs and provides constant-time operations to store, retrieve, or test for an item in the set.
+The key may be of any type whose values can be compared with == with strings being the most common.
+The value may be of any type.
+
 */
