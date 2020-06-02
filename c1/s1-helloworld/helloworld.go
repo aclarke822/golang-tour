@@ -28,6 +28,5 @@ Go does not require semicolons at the ends of statements or declarations except 
 The gofmt tool rewrites code into the standard format.
 
 Use goimports to manage insertion and removal of import declarations.
-$go get golang.org/x/tools/cmd/goimports
-
+$ go get golang.org/x/tools/cmd/goimports
 */

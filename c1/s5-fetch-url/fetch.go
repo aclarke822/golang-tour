@@ -24,3 +24,9 @@ func main() {
 		fmt.Printf("%s", b)
 	}
 }
+
+//Notes
+/*
+The http.Get function makes an HTTP request and, if there is no error, returns the result in the response struct resp.
+The Body field of resp contains the server response as a readable stream.
+*/

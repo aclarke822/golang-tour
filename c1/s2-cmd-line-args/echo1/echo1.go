@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv" //Exercise 1.2, print index and value, one per line
-	"time"    //Exercise 1.3, compare times of execution between echo1/2/3, using 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+	"time"    //Exercise 1.3, compare times of execution between echo1/2/3
 )
 
 func main() {
